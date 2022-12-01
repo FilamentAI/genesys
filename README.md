@@ -12,16 +12,16 @@ This Genesys Cloud Developer Blueprint provides instructions on how to connect E
 
 Within the EBM Broker interface (basic setup):
 
- - Create a EBM Fulfilment
- -- Define the pre-existing EBM chatbot to connect to
+- Create a EBM Fulfilment
+-- Define the pre-existing EBM chatbot to connect to
  
- - Create a Genesys Chat Bridge Connector and populate the following values
- -- Cloud environment (from instance URL e.g. *euw2.pure.cloud*)
- -- Organization ID (from *Genesys Admin -> Account Settings -> Organization Settings -> Organization Details*)
- -- Deployment ID (from *Genesys Admin -> Contact Center -> Widgets*)
- -- Client ID (from *Genesys Admin -> Integrations -> OAuth -> App*) - use **Client ID** 
- -- Client Access Token Secret (from *Genesys Admin -> Integrations -> OAuth -> App*) - use **Client Secret** 
- -- Handover Skill (from *Genesys Admin -> Contact Center -> Queues*) - use **Queue Name**
+- Create a Genesys Chat Bridge Connector and populate the following values
+  * Cloud environment (from instance URL e.g. *euw2.pure.cloud*)
+  * Organization ID (from *Genesys Admin -> Account Settings -> Organization Settings -> Organization Details*)
+  * Deployment ID (from *Genesys Admin -> Contact Center -> Widgets*)
+  * Client ID (from *Genesys Admin -> Integrations -> OAuth -> App*) - use **Client ID** 
+  * Client Access Token Secret (from *Genesys Admin -> Integrations -> OAuth -> App*) - use **Client Secret** 
+  * Handover Skill (from *Genesys Admin -> Contact Center -> Queues*) - use **Queue Name**
 
 Within the EBM Conversation Flow:
 
